@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: URL("https://wallpapers.com/images/hd/walt-disney-castle-xsvge3lp9rmh1u1b.jpg");
+    background-color: #7754f8;
+    background-size: contain;
+    font-family: 'Ranchers', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    line-height: 1.6;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 5em;
+    color: #0e36baca;
+    width: 400px;
+    text-align: center;
+    text-shadow:
+        -5px -5px 0 white,
+        5px -5px 0 white,
+        -5px 5px 0 white,
+        5px 5px 0 white;
+}
+
+.button {
+    background-color: #680ea8c5;
+    margin: 30px 0;
+    border-radius: 4px;
+    min-width: 100px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-links a:hover {
+    color: #1c0310;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 20px;
+    text-size-adjust: 200px;
+}
+
+#input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input {
+    margin: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.3em;
+    height: 2.5em;
+}
+
+#message {
+    font-size: 1.5em;
+    background-color: darkmagenta;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 2px;
+    text-align: center;
+    display: none;
+}
+
+#lives-text {
+    color: white;
+}
+
+img {
+    width: 60%;
+    max-width: 300px;
+}
